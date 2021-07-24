@@ -1,0 +1,85 @@
+
+/*Used color in the top navigation menu bar */
+.topnav {
+  background-color:  #ceeced;
+  overflow: hidden;
+}
+
+
+/*Added font style and color to the navigation menu bar */
+.topnav a {
+  float: center;
+  color: #68c0bc;
+  text-align: center;
+  padding: 10px 11px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of the navigation bar links when mouse is hovered over one */
+.topnav a:hover {
+  background-color:  #002366;
+}
+/* Color added to highlight the active link in the naviation bar */
+.topnav a.active {
+  background-color: #68c0bc;
+  color: #ceeced;
+}
+
+
+/* Adding styles and colors to the font and background of the body of the page */
+body {
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+	font-size: 24px; 
+	font-style: normal; font-variant: normal; 
+  background-color: #002366;
+	background-attachment: padding 20px;
+  color: #ceeced;
+  font: oblique;
+  text-align: center;
+  max-width: 700px;
+	padding: 20px;
+  margin: auto;
+  }
+
+/* The main heading is bolded and has ivory font and is centered */
+h1 {
+  background-color: #ceeced;
+  color: #002366;
+  font: bold;
+  text-align: center;
+}
+
+/* A sub heading that is also is bolded and has ivory font and is centered */
+h2 {
+  background-color: #ceeced;
+  color: #002366;
+  font: bold;
+  text-align: center;
+}
+
+
+/* Centering the image */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* Centering and keeping page content within a set width */
+section {
+	width: 350px;
+	float: center;
+	padding: 14 px;
+}
+
+/*Adding style to the footer and the font color of the footer*/
+footer {
+	background-color: #ceeced;
+	color: #002366;
+	clear: both;
+	text-align: center;
+	padding: 14 px;
+}
